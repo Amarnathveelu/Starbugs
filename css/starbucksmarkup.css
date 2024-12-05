@@ -1,0 +1,522 @@
+
+*body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-navbar{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    width: 100%;
+    box-shadow:grey ;
+    border-style:inherit;
+}
+
+
+
+.top-left-menu-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 50%;
+    padding: 5px;
+}
+.top-logo{
+    height: 40px;
+    width:40px ;
+    padding-top: 5px;
+   
+}
+.top-left-menus{
+    font-family:SoDoSans_Light, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.top-right-menu-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 50%;
+    padding-top: 15px;
+}
+
+.search-bar{
+    font-family:Helvetica, sans-serif;
+    text-align: end;
+    border-radius:17px;
+    border: white;
+    box-shadow:1px 1px rgb(71, 70, 70) ;
+    height:35px;
+    width:240px;
+}
+
+.profile-icon{
+    margin-top:3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bottum-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0e382c;
+    margin-top: 12px;
+    padding-top: 20px;
+    padding-right: 60px;
+    padding-left: 30px;
+    width: 100%;
+    height: 70px;
+    box-shadow:2px 2px gray;
+}
+.bottum-navbar-title{
+    color:white;
+    font-family:Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    margin-left:70px;
+}
+
+.bottum-navbar-btn{
+    color: white;
+    background-color:#0e382c;
+    border: 1px white solid;
+    border-radius: 17px;
+    text-align: center;
+    font-family:Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 90px;
+    margin-top:10px;
+    padding:5px;
+    width:100px;
+    height:38px;
+}
+.bottum-navbar-btn:hover{
+    cursor: pointer;
+    background-color:#343837;
+
+}
+
+.midle-container{
+    display: flex;
+    flex-direction: row;
+    background-color:pink;
+    width: 1100px;
+    height:300px;
+    margin:100px;
+    border-radius:17px;
+    box-shadow:grey 1px 1px;
+    border:1px grey;
+    border-style: groove;
+}
+.Banner-Left-Image{
+    text-align: end;
+    height: 300px;
+    width: 115px;
+    padding-right: 15px;
+}
+
+.midle-text-container{
+     padding-top: 30px;
+     padding-right: 10px;
+}
+.midle-btn-cont{
+    display: flex;
+    justify-content:flex-end;
+    align-content: flex-end;
+    width: 450px;
+}
+
+.midle-container-btn{
+    color: white;
+    background-color:#00754a;
+    border-radius: 17px;
+    text-align: center;
+    font-family:Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right:40px;
+    margin-top:247px;
+    padding:5px;
+    width:150px;
+    height:38px;   
+}
+.midle-container-btn:hover{
+    background-color:#000f0a;
+}
+.products-card-heading{
+    font-family:Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 120px;
+}
+
+.products-dis-banner{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content:space-evenly;
+}
+
+.products-card-cont{
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+.products-card-image{
+    height: 100px;
+    width: 100px;
+    border-radius:50px;
+    margin: 5px;
+}
+.products-card-menus{
+    font-family:Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.offer-card-cont{
+    display: flex;
+    flex-direction: row;
+    background-color:#edebe9 ;
+    height:350px;
+    width:100%;
+}
+.head-card-offer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right:10px;
+    padding-left:32px;
+    padding-top: 30px;
+    width: 97%;
+}
+.offer-card-head{
+    color: #1e3932;
+    font-family:Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.view-menu{
+    color: #00754a;
+    font-family:Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.white-bg-card-cont-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left:50px;
+    margin-top: 10px;
+}
+
+.white-bg-card{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius:12px;
+    width:310px;
+    height: 145px;
+    padding: 15px;
+    margin:15px;
+    border: 1px grey;
+    border-style: groove;
+    box-shadow:1px 1px grey;
+}
+
+.image-card-box{
+    width: 80px;
+    text-align: center;
+}
+
+.img-menu{
+    height:75px;
+    width: 80px;
+    border-radius: 12px;
+}
+.text-cont-white{
+    padding-left:6px;
+    padding-top: 5px;
+    padding-right:5px ;
+    height: 100px;
+    width:90px;
+}
+
+.FSSAI-new-labels{ 
+    width:30px;
+    height:30px;
+}
+.new-labels-head{
+    font-family:Helvetica, sans-serif;
+    font-size: 12px;
+}
+.new-labels-para{
+    color:grey;
+    font-family:Helvetica, sans-serif;
+    font-size: 8px;
+}
+
+.white-btn-card-cont{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 100px;
+    width:120px;
+}
+
+.white-card-btn{
+    color: white;
+    text-align: center;
+    font-family:Helvetica, sans-serif;
+    font-size:12px;
+    font-weight: bold;
+    background-color:#00754a ;
+    width:90px;
+    height:35px;
+    padding: 5px;
+    border-radius:15px;
+}
+
+.white-card-btn:hover{
+    background-color:#01130c ;
+    cursor: pointer;
+}
+.greyleafright-img-cont{
+    text-align: end;
+    width: 150px;
+}
+
+
+.menu-card-bg-color{
+    background-color:#edebe9 ;
+    background-size: cover;
+    background-position:center;
+    height:600px;
+    width:100%;
+    padding: 10px;
+}
+
+.menu-card-title-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu-card-cont-head{
+    color: #1e3932;
+    font-family:Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.discover-option{
+    color: #00754a;
+    font-family:Helvetica, sans-serif;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-right:120px;
+}
+
+.starbucks-coffeemechine-bg-image{
+    background-image: url(https://res.cloudinary.com/dw3dfkcfc/image/upload/v1728182689/ICW_Live_Event_Day5_41f11ca3d2_h654fs.jpg);
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    border-radius:5px;
+    height:60vh;
+    width:80vw;
+    padding:20px;
+    margin-left:60px;
+    margin-top: 34px;
+    box-shadow:1px 1px grey solid;
+}
+
+.coffee-clt{
+    color:#009966;
+    text-align: center;
+    font-family:Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #e6edeb;
+    border:1px #edebe9;
+    border-radius:5px ;
+    width:100px;
+    height:20px;
+    padding-top:5px;
+    margin: 10px;
+}
+
+.Coffee-Culture-btn{
+    color:#009966;
+    text-align: center;
+    font-family:Helvetica, sans-serif;
+    font-size:1rem;
+    background-color:white;
+    width: 150px;
+    height: 30px;
+    margin-left: 5px;
+    box-shadow: inset -1px -1px rgba(250, 245, 245, 0.1);
+    padding:5px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+  
+.Coffee-Culture-btn:hover{
+   cursor:pointer;
+   background-color:rgb(43, 42, 42);
+   color: #0c6144;
+}
+.Art-science-card-cont{
+    display: flex;
+    align-content:flex-end;
+    height: 300px;
+    padding-top: 150px;
+}
+
+.Art-science-head{
+    color:white;
+    font-family:Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: unset;
+    font-size:25px;
+    padding: 10px;
+}
+
+.Art-science-para{
+    color:white;
+    font-family:Helvetica, sans-serif;
+    font-size:15px;
+    padding: 10px;
+}
+.bottum-card-background-color{
+    background-color:#1e3932;
+    background-size: cover;
+    background-position: center;
+    height: 700;
+    width: 100%;
+}
+
+.bottum-card-background-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.logo-bottum-svg{
+    padding-left:70px ;
+    padding-top: 100px; 
+    padding-right: 50px;
+    height: 78px;
+    width:87px;
+}
+.bottum-card-para{
+    color: white;
+    font-family:Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 30px;
+    padding-top: 100px;
+    width: 150px;
+}
+
+.card-text-size{
+    padding-bottom:15px;
+}
+
+.icons-cont-bars{
+    color: white;
+    font-family:Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 30px;
+    padding-top: 100px;
+    width:200px;
+}
+
+.bottum-svg-img-cont{
+    width: 220px;
+    margin-top: 100px;
+    margin-left: 30px;
+   }
+
+   .google-play-svg{
+    height: 50px;
+    width: 170px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 7px;
+   }
+   .apple-svg{
+    height: 50px;
+    width: 170px;
+    margin-left: 15px;
+    margin-right: 15px;
+   }
+
+ .loyast-card-cont-para{
+  color: white;
+  font-family:Helvetica, sans-serif;
+  font-size: 11px;
+ }
+
+ .icons-cont{
+  display: flex;
+  align-content: flex-start;
+  width:400px;
+  padding-top: 5px;
+ }
+ .icons{
+  color: white;
+  font-size: 30px;
+  font-weight: 200;
+  padding: 10px;
+  margin-right: 15px;
+  }
+
+  .bottum-most-cont{
+    width: 90%;
+    height: 50px;
+    border: white ;
+    margin-left:100px;
+    margin-right: 100px;
+  }
+
+  .bottum-most-cont-f{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+  }
+
+  .bottum-most-cont-type{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    font-family:Helvetica, sans-serif;
+    font-size:12px;
+    width: 600px;
+  }
+  .bottum-most-cont-paragraph{
+    display: flex;
+    justify-content:flex-end;
+    color: white;
+    font-family:Helvetica, sans-serif;
+    font-size:10px;
+    width: 700px;
+  }
+
+
+
+  .profile-login-bg-cont{
+    background-color: rgb(243, 225, 228);
+    height: 700px;
+    width: 100%;
+  }
